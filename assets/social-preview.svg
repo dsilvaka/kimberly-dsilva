@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Kimberly Dsilva social preview">
+  <rect width="1200" height="630" fill="#94201E"/>
+  <g fill="#F7F3EC">
+    <text x="108" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="128" font-weight="700">K</text>
+    <rect x="218" y="82" width="3" height="154"/>
+    <text x="258" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="128" font-weight="700">D</text>
+    <text x="108" y="348" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700" letter-spacing="8">KIMBERLY DSILVA</text>
+    <text x="112" y="430" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="500">Product Strategy · AI · Healthcare · Human Systems</text>
+    <line x1="108" y1="492" x2="1092" y2="492" stroke="#F7F3EC" stroke-width="2" opacity="0.7"/>
+    <text x="112" y="552" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="5">THOUGHTFUL PRODUCTS. CLEAR STRATEGY.</text>
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Contact Kimberly Dsilva about product strategy, AI, healthcare, websites, writing, photography, or creative work."
+    >
+    <title>Contact | Kimberly Dsilva</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <!-- Update these URLs to the live domain after deployment. -->
+    <link rel="canonical" href="https://kimberlydsilva.com/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact | Kimberly Dsilva">
+    <meta property="og:description" content="Connect with Kimberly Dsilva about product strategy, AI, healthcare, websites, writing, photography, or something unexpected.">
+    <meta property="og:image" content="https://kimberlydsilva.com/assets/social-preview.svg">
+    <meta property="og:image:type" content="image/svg+xml">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Kimberly Dsilva">
+    <meta property="og:url" content="https://kimberlydsilva.com/contact.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact | Kimberly Dsilva">
+    <meta name="twitter:description" content="Let’s build something worthwhile.">
+    <meta name="twitter:image" content="https://kimberlydsilva.com/assets/social-preview.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..700,0..100&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand-lockup" href="index.html" aria-label="Kimberly Dsilva home">
+          <span class="brand-mark" aria-hidden="true"><span>K</span><span class="divider"></span><span>D</span></span>
+          <span>
+            <span class="brand-wordmark">Kimberly Dsilva</span>
+          </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open navigation menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+        <div class="nav-links" id="site-menu">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="experience.html">Experience</a>
+          <a class="nav-link" href="websites.html">Websites</a>
+          <a class="nav-link" href="https://medium.com/@kimberly.d" target="_blank" rel="noreferrer">Writing</a>
+          <a class="nav-link active" href="contact.html" aria-current="page">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero contact-hero section">
+        <p class="eyebrow">Contact</p>
+        <h1>Let&rsquo;s build something worthwhile.</h1>
+        <p>
+          Whether you want to talk product, AI, healthcare, small business
+          websites, nonprofit work, writing, photography, or something unexpected
+          &mdash; send me a note.
+        </p>
+      </section>
+
+      <section class="section contact-layout" aria-label="Contact form">
+        <!-- Netlify detects this static form at deploy time. Keep form-name in sync with name. -->
+        <form class="contact-form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you.html">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="hidden-field">
+            <label>Do not fill this out if you are human: <input name="bot-field"></label>
+          </p>
+
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+
+          <label for="reason">Reason for reaching out</label>
+          <select id="reason" name="reason" required>
+            <option value="">Select one</option>
+            <option>Product / career</option>
+            <option>Small business website</option>
+            <option>Nonprofit website</option>
+            <option>Speaking / writing</option>
+            <option>Photography / creative</option>
+            <option>Other</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="7" required></textarea>
+
+          <button class="button" type="submit">Send note</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <div class="brand-mark" aria-hidden="true"><span>K</span><span class="divider"></span><span>D</span></div>
+        <div><p class="footer-wordmark">Kimberly Dsilva</p><p>Product Strategy · AI · Healthcare · Human Systems</p></div>
+      </div>
+      <div class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a><a href="experience.html">Experience</a><a href="websites.html">Websites</a><a href="https://medium.com/@kimberly.d" target="_blank" rel="noreferrer">Writing</a><a href="contact.html">Contact</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
